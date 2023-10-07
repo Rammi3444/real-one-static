@@ -16,11 +16,12 @@ const Index = () => {
                 <div className="container">
                   <div className="heading-boder">
                     <h2>
-                      Digital Agency With A<span>Passion</span> For Marketing.
+                      Sed ut perspiciatis unde <span>omnis iste</span> natus
+                      error sit.
                     </h2>
-                    <p>For Small-To-Medium Sized Businesses</p>
-                    <a href="services.html" className="themebtu full">
-                      More Services
+                    <p>Sed ut perspiciatis unde omnis iste natus</p>
+                    <a href="/" className="themebtu full">
+                      Schedule a Demo
                     </a>
                   </div>
                 </div>
@@ -59,19 +60,14 @@ const Index = () => {
             <div className="col-lg-6 p-sm-0">
               <div className="heading">
                 <h6>What We Do</h6>
-                <h2>
-                  {" "}
-                  Expert in Leveraging Available Budgets to Find Peak
-                  Performance.
-                </h2>
+                <h2> Sed ut perspiciatis unde omnis iste natus error.</h2>
                 <img alt="line" src="assets/img/headingline.png" />
               </div>
               <div className="marketing">
                 <h4>
-                  Need help with your Digital Marketing?
-                  <br />
-                  Let us do what we do best so you can focus on running your
-                  business
+                  Diam leo massa pellentesque a neque turpis cum mi gravida?
+                  <br></br>
+                  Amet massa adipiscing mi dictum urna commodo.
                 </h4>
                 <p>
                   Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In

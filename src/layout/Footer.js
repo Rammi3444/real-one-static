@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 const Footer = () => {
   return (
     <footer className="gap no-bottom" style={{ backgroundColor: "#222" }}>
@@ -51,71 +49,69 @@ const Footer = () => {
           </div>
           <div className="col-xl-3 col-lg-4 col-md-6">
             <div className="latest-news">
-              <h6>COnnect with Us</h6>
+              <h6>Connect with Us</h6>
               <p>
                 <span>
-                  <i className="fa-brands fa-facebook-f" />
+                  <i className="fa fa-address-card" />
                 </span>
                 7th Block, SLN Arcade, 585, 2nd Main Rd, 2nd Phase, Banashankari
                 3rd Stage, Bengaluru, Karnataka 560085
               </p>
               <p>
-                <Link legacyBehavior href="tel:+919876543210">
+                <a href="tel:+919876543210">
                   <span>
                     <i class="fa fa-phone" aria-hidden="true"></i>
                   </span>
                   +91 9876543210
-                </Link>
+                </a>
               </p>
               <p>
-                <Link legacyBehavior href="mailto:info@realone.com">
+                <a href="mailto:info@realone.com">
                   <span>
                     <i class="fa fa-envelope" aria-hidden="true"></i>
                   </span>
                   info@realone.com
-                </Link>
+                </a>
               </p>
-
-              <form>
-                <input
-                  type="text"
-                  name="email"
-                  placeholder="your email address"
-                />
-                <button>go</button>
-              </form>
+              <div className="frt-social">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i className="fa-brands fa-facebook-f" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i className="fa-brands fa-twitter" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i className="fa-brands fa-instagram" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i className="fa-solid fa-m" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i className="fa-brands fa-linkedin-in" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
         <div className="footer-bottom">
-          <p>© 2023 Terio - All Rights Reserved | Developed by bslthemes</p>
-          <ul>
-            <li>
-              <a href="#">
-                <i className="fa-brands fa-facebook-f" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i className="fa-brands fa-twitter" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i className="fa-brands fa-instagram" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i className="fa-solid fa-m" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i className="fa-brands fa-linkedin-in" />
-              </a>
-            </li>
-          </ul>
+          <p>© {new Date().getFullYear()} RealOne - All Rights Reserved</p>
+          <p>
+            <a href="https://www.nextwebi.com/">
+              Website Developed by Nextwebi
+            </a>
+          </p>
         </div>
       </div>
     </footer>
